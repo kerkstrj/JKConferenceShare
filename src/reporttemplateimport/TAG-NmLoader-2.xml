@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE NmLoader SYSTEM "standard12_1.dtd">
+<NmLoader>
+  <csvReportTemplate handler="wt.query.template.LoadReportTemplate.createReportTemplate">
+    <csvfolder>/System</csvfolder>
+    <csvname>ReportDemoPart</csvname>
+    <csvdescription></csvdescription>
+    <csvxml>ReportDemoPart.xml</csvxml>
+    <csvurl1></csvurl1>
+    <csvurl2></csvurl2>
+    <csvxslType>ASK</csvxslType>
+    <csvcontainerPath>/</csvcontainerPath>
+    <csvresourceBundle></csvresourceBundle>
+    <csvinputPage></csvinputPage>
+    <csvcustomActionModel></csvcustomActionModel>
+    <csvexposeasreport>false</csvexposeasreport>
+    <csvupdate>true</csvupdate>
+  </csvReportTemplate>
+  <csvReportTemplate handler="wt.query.template.LoadReportTemplate.createReportTemplate">
+    <csvfolder>/System</csvfolder>
+    <csvname>ReportDemoEPMDocument</csvname>
+    <csvdescription></csvdescription>
+    <csvxml>ReportDemoEPMDocument.xml</csvxml>
+    <csvurl1></csvurl1>
+    <csvurl2></csvurl2>
+    <csvxslType>ASK</csvxslType>
+    <csvcontainerPath>/</csvcontainerPath>
+    <csvresourceBundle></csvresourceBundle>
+    <csvinputPage></csvinputPage>
+    <csvcustomActionModel></csvcustomActionModel>
+    <csvexposeasreport>false</csvexposeasreport>
+    <csvupdate>true</csvupdate>
+  </csvReportTemplate>
+  <csvReportTemplate handler="wt.query.template.LoadReportTemplate.createReportTemplate">
+    <csvfolder>/System</csvfolder>
+    <csvname>ReportDemoContainer</csvname>
+    <csvdescription></csvdescription>
+    <csvxml>ReportDemoContainer.xml</csvxml>
+    <csvurl1></csvurl1>
+    <csvurl2></csvurl2>
+    <csvxslType>ASK</csvxslType>
+    <csvcontainerPath>/</csvcontainerPath>
+    <csvresourceBundle></csvresourceBundle>
+    <csvinputPage></csvinputPage>
+    <csvcustomActionModel></csvcustomActionModel>
+    <csvexposeasreport>false</csvexposeasreport>
+    <csvupdate>true</csvupdate>
+  </csvReportTemplate>
+</NmLoader>
