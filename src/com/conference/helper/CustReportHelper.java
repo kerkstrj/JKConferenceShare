@@ -288,7 +288,7 @@ public class CustReportHelper
 	public static ByteArrayOutputStream executeJasperReport(String reportName, HashMap<String, String> reportParams, boolean useTestData) throws Exception
 	{
 		
-		String className = "com.conference.jasperreports." + reportName;
+		String className = "com.conference." + reportName;
 		logger.debug("Class path: " + className);
 		Class<?> cl = Class.forName(className);
 		
